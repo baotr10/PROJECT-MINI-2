@@ -82,6 +82,23 @@
     color: var(--color-one);
 }
 
+.header .inner-bar {
+    display: none;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+    .header .inner-head-wrap .inner-head-right ul {
+        display: none;
+    }
+
+    .header .inner-bar {
+        display: inline-block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+}
 /* End Header */
 
 /* Section One */
