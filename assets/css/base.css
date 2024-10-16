@@ -9,6 +9,7 @@
 body {
     background-color: var(--color-five);
     font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
 }
 
 a {
