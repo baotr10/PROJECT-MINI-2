@@ -83,6 +83,10 @@
     color: var(--color-one);
 }
 
+.inner-head-right .right-list .right-item a {
+    transition: all ease-in-out 0.2s;
+}
+
 .header .inner-bar {
     display: none;
 }
